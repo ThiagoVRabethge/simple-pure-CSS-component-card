@@ -1,0 +1,61 @@
+/* CARD CSS */
+
+.container {
+    margin-top: 0.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.card-body {
+    width: 25%;
+    border: 1px solid black;
+    border-radius: 3px;
+    box-shadow: 2px 4px 0.2px black;
+}
+
+.card-header {
+    text-align: center;
+}
+
+.card-main {
+    width: 100%;
+    border-radius: 3px;
+    text-align: center;
+}
+
+.card-icon {
+    width: 90%;
+    border-radius: 3px;
+}
+
+.card-footer {
+    width: 100%;
+    text-align: center;
+}
+
+.btn-witch {
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    background-color: brown;
+    color: white;
+    padding: 0.4rem;
+    border-radius: 3px;
+    border: none;
+    font-weight: bold;
+}
+
+/* GENERAL CSS */
+
+.italic {
+    font-style: italic;
+}
+
+.mb-3 {
+    margin-bottom: 0.3rem;
+}
+
+.grid-template-column {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
